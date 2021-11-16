@@ -1,0 +1,22 @@
+package dio.com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TypeList {
+	
+	public static void main(String[]args) {
+		
+		
+		List<Double> grades = new ArrayList<>();
+		
+		grades.add(7.0);
+		grades.add(7.4);
+		grades.add(9.0);
+		grades.add(5.8);
+		grades.add(8.6);
+		
+		System.out.println(grades.toString());
+	}
+
+}

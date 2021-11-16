@@ -1,0 +1,28 @@
+package dio.com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TypeList {
+	
+	public static void main(String[]args) {
+		
+		
+		List<Double> grades = new ArrayList<>();
+		
+		// adicionado as nodas
+		grades.add(7.0);
+		grades.add(7.4);
+		grades.add(9.0);
+		grades.add(5.8);
+		grades.add(8.6);
+		
+		// mostrando todas as notas
+		System.out.println(grades.toString());
+		
+		//exibindo a posição 9.0, se não encontar retorn -1 
+		System.out.println(grades.indexOf(9d));
+		
+	}
+
+}
