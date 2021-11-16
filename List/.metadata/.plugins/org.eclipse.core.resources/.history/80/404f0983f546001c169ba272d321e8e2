@@ -1,0 +1,21 @@
+package dio.com.comparator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ExempleList {
+	
+	public static void main(String[] args) {
+	
+	List<String> names = new ArrayList<>() {{
+		add("Daniel");
+		add("Alana");
+		add("Maria");
+		add("Felipe");
+		add("Jeferson");
+	}};
+	
+	System.out.print(names);
+	
+	}
+}
